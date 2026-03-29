@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "payfast-core"
-version = "1.0.0"
+version = "1.0.2"
 description = "A Python SDK for the PayFast payment gateway — once-off payments, subscriptions, ITN validation, and webhook verification."
 readme = "README.md"
 license = { file = "LICENSE" }
