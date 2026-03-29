@@ -56,9 +56,9 @@ jobs:
         with:
           username = __token__
           password = ${{ secrets.PYPI_API_TOKEN }}
-          user: __token__
-          password: ${{ secrets.PYPI_API_TOKEN }}
-          args: --verbose
+          # user: __token__
+          # password: ${{ secrets.PYPI_API_TOKEN }}
+          # args: --verbose
 
   publish-to-testpypi:
     name: Publish to TestPyPI 🐍
